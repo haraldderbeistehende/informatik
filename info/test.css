@@ -1,0 +1,119 @@
+.logos{                             /* JA die sachen */
+    font-size: x-large;
+    color:white;
+    background: #ff18d5;
+    width: 100%;
+    text-align: center; 
+    bottom: 0;
+    position: fixed;
+    height: 10%;
+    border: 18px solid #ff18d5;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #b6adff;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+}
+
+input[type=submit]:hover {
+  background-color: #8777ff;
+}
+
+.login2 {
+    width: 30%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  top: 30%;
+  position: fixed;
+  left: 35%;
+}
+.login {
+    background-color: #000;
+    border-radius: 150px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}
+.nav {
+    background: #ff18d5;
+    width: 100%; 
+    position: fixed;
+    height: 16%;
+    top: 0%;
+}
+.nav1 {
+    font-size: 20px;
+    background: #ff18d5;
+    width: 100%; 
+    position: fixed;
+    height: 10%;
+    text-align: center;
+    top: 0%;
+    margin-top: 2%;
+}
+.nav2 {
+    font-size: 20px;
+    margin-top: 2%;
+    background: #ff18d5;
+    width: 20%; 
+    position: fixed;
+    height: 10%;
+    text-align: center;
+    right: 0px;
+    top: 0%;
+}
+.navlogin {
+    font-size: 20px;
+    color:white;
+    border:none;
+    background: #ff18d5;
+    width: 100%;
+    text-align: center; 
+    position: fixed;
+    height: 10%;
+}
+h1{
+    color: white;
+    display: inline;
+    text-align: center;
+}
+
+.logopic{
+    height: 80%;
+    top: 30%;
+}
+h2{
+    color: white;
+    text-align: center;
+    display: inline;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin: 0 !important;
+    background-color: #505050;
+}

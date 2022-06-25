@@ -1,0 +1,336 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.logos{                             /* JA die sachen */
+    font-size: x-large;
+    color:white;
+    background: #ff18d5;
+    width: 100%;
+    text-align: center; 
+    bottom: 0;
+    position: fixed;
+    height: 10%;
+    border: 18px solid #ff18d5;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #b6adff;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+}
+
+input[type=submit]:hover {
+  background-color: #8777ff;
+}
+
+.login2 {
+    width: 30%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  top: 30%;
+  position: fixed;
+  left: 35%;
+}
+.login {
+    background-color: #000;
+    border-radius: 150px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+}
+.nav {
+    background: #ff18d5;
+    width: 100%; 
+    position: fixed;
+    height: 16%;
+    top: 0%;
+}
+.nav1 {
+    font-size: 20px;
+    background: #ff18d5;
+    width: 100%; 
+    position: fixed;
+    height: 10%;
+    text-align: center;
+    top: 0%;
+    margin-top: 2%;
+}
+.nav2 {
+    font-size: 20px;
+    margin-top: 2%;
+    background: #ff18d5;
+    width: 20%; 
+    position: fixed;
+    height: 10%;
+    text-align: center;
+    right: 0px;
+    top: 0%;
+}
+.navlogin {
+    font-size: 20px;
+    color:white;
+    border:none;
+    background: #ff18d5;
+    width: 100%;
+    text-align: center; 
+    position: fixed;
+    height: 10%;
+}
+h1{
+    color: white;
+    display: inline;
+    text-align: center;
+}
+
+.logopic{
+    height: 80%;
+    top: 30%;
+}
+h2{
+    color: white;
+    text-align: center;
+    display: inline;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin: 0 !important;
+    background-color: #505050;
+}
+.chats{
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    height: 90%;
+    width: 20%;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    overflow: auto;
+    
+}
+.profile{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    height: 10%;
+    width: 20%;
+    background-color:magenta;
+}
+.chatarea{
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    height: 100%;
+    width: 80%;
+    background-color: #7c7c7c;
+    overflow: auto;
+}
+
+.date{
+font-weight: bold;
+}
+
+
+.pfp{
+    height: 80%;
+    top: 10%;
+    left: 5%;
+    position: absolute;
+    width: 15%;
+}
+.username-profile{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.settings{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    height: 50%;
+}
+.newchat{
+    position: absolute;
+    top: 25%;
+    right: 22%;
+    height: 50%;
+    
+}
+.overlay{
+    position: fixed;
+    right: 20%;
+    top: 15%;
+    height: 70%;
+    width: 60%;
+    background-color: #ea09ff;
+}
+.chat{
+    height: 10%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+chatnum{
+    display: none;
+}
+.msgin {
+    font-size: x-large;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    background: #DB7093;
+    width: 60%;
+    text-align: left; 
+    margin-bottom: 15px;
+    white-space: normal;
+    word-wrap: break-word;
+    
+}
+.msgout {
+    font-size: x-large;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    background: #a0ca78;
+    width: 60%;
+    text-align: left; 
+    margin-bottom: 15px;
+    margin-left: 36%;
+    white-space: normal;
+    word-wrap: break-word;
+    
+}
+#msginput{
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 20%;
+}
+.sendmsg{
+    position: absolute;
+    right: 0px;
+    bottom:0px;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 20%;
+}
+.messages{
+    position: absolute;
+    top: 10%;
+    height: 70%;
+    overflow: auto;
+    width: 100%;
+    display: block;
+}
+.chatbar{
+    position: absolute;
+    top: 0px;
+    height: 10%;
+    width: 100%;
+    background: #a779ac;
+}
+.chatname{
+    position: absolute;
+    top: 20%;
+    font-size: x-large;
+    left: 5%;
+}
+.manage{
+    position: absolute;
+    top: 20%;
+    right: 6%;
+    height: 60%;
+}
+.manage-member{
+    border-radius: 10px;
+    background: #a779ac;
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    height: 10%;
+}
+.manage-pfp{
+    height: 80%;
+    top: 10%;
+    left: 5%;
+    position: absolute;
+    max-width: 15%;
+}
+.manage-uname{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 130%;
+}
+.manage-remove{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    height: 40%;
+}
+.addsubmit{   
+    all: unset;
+    position: absolute;
+    right: 10%;
+    width: 17%;
+    height: 8%;
+    top: 1%;
+    font-size: x-large;
+    background: #a779ac;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.addinput{
+    position: absolute;
+    left: 10%;
+    width: 60%;
+    height: 8%;
+    top: 1%;
+}
+.managearea{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 90%;
+}
